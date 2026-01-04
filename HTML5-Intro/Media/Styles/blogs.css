@@ -1,0 +1,18 @@
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+nav li:hover {
+    background-color: #eee;
+}
+nav li a{
+    text-decoration: none;
+}
+
+main article figure img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: 0;
+}
