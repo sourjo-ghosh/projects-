@@ -1,0 +1,53 @@
+body {
+    max-width: 1270px;
+    background-color: bisque;
+    margin: 0 auto;
+}
+nav ul{
+    /* list-style: none; */
+    display: flex;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover{
+    color: rgb(20, 124, 119);
+}
+nav li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.hero-container{
+    display:flex ;
+    align-items: center;
+    gap: 40px;
+    background-color: rgba(61, 143, 74, 0.671);
+    padding: 25px;
+    border-radius: 15px;
+    color: rgb(68, 66, 66);
+}
+.hero-container button{
+    background-color: rgb(243, 221, 195);
+    padding: 10px 15px;
+    font-size: 1.25em;
+    border-style: solid;
+    /* Required for the color to be visible */
+    border-width: .5px;
+    /* Sets the thickness */
+    border-color: rgb(112, 105, 105);
+    /* Sets the color */
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.hero-container button:hover{
+    color: rgb(73, 69, 69);
+}
+.hero-container img{
+    width: 550px;
+    height: auto;
+    border-radius: 25px;
+}
