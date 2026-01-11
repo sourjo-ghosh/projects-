@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        h1{
+            margin-top: 0;
+            display: flex;
+            font-size: 50px;
+            justify-content: center;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 0px 10px;
+            background-color: antiquewhite;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        .navbar {
+            display: flex;
+            gap: 15px;
+        }
+        .Login-form-container{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            
+        }
+        
+        .Login-form{
+            border: 2px solid blueviolet;
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+            background-color: rgb(184, 211, 235);
+        }
+        .Login-form-container label{
+            background-color: transparent;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Profile</a>
+        </div>
+        <a href="#">Login</a>
+    </nav>
+    <h1>Simple forms</h1>
+    <section class="Login-form-container">
+        <form class="Login-form">
+            <h3>Login</h3>
+            <label for="name">Enter Your Name</label>
+            <input type="text" id="name" placeholder="Your Name">
+            <br>
+            <label for="email">Enter Name Email</label>
+            <input type="email" name="" id="email">
+            <br>
+            <label for="password">Enter Your Password</label>
+            <input type="password" name="password" id="">
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+</body>
+</html>
