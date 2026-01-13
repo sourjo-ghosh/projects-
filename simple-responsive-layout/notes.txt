@@ -1,0 +1,19 @@
+grid flexbox ar motoi akta css property.
+flex hocce one dimension but grid 2D dimension.
+grid ar kicu
+properties holo
+gird-template-column-
+ei khane amra joto man dibo toto porimane and akare column create hobe.
+grid diya responsive design kora hoy
+<... Responsive Website ...>
+
+responsive bolte bujay je kunu akta website browser ar height width ar sathe response korce kina.
+jodi response kore toh sei website ta responsive akta website.
+responsive website ar 7 ta roles or principle ace
+1. Website viewport ar meta tag
+2. Use only relative units as possible
+3. Body max width and horizontal center align
+4. image fluid
+5. two column flex and use media query with flex direction column7
+6. multi column: use grid use grid layout
+7. menu responsive : will need javascript
