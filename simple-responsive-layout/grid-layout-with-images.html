@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>grid | images</title>
+    <style>
+        .container{
+            display: grid;
+            gap: 3px;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(6, 200px);
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .big-layout{
+            grid-column: span 6 ;
+            grid-row: span 2;
+        }
+        .mid-layout{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .small-layout{
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+        .too-small-layout{
+            grid-row: span 1;
+            grid-column: span 1;
+        }
+        @media screen and (max-width:576px){
+            .container{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+            .big-layout, .mid-layout, .small-layout, .too-small-layout{
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="big-layout">
+            <img src="../images/A.jpg">
+        </div>
+        <div class="mid-layout">
+            <img src="../images/B.jpg">
+        </div>
+        <div class="mid-layout">
+            <img src="../images/C.jpg">
+        </div>
+        <div class="small-layout">
+            <img src="../images/D.jpg">
+        </div>
+        <div class="small-layout">
+            <img src="../images/E.jpg">
+        </div>
+        <div class="mid-layout">
+            <img src="../images/F.jpg">
+        </div>
+        <div class="too-small-layout">
+            <img src="../images/G.jpg">
+        </div>
+        <div class="too-small-layout">
+            <img src="../images/G.jpg">
+        </div>
+        <div class="mid-layout">
+            <img src="../images/I.jpg">
+        </div>
+        <div class="too-small-layout">
+            <img src="../images/G.jpg">
+        </div>
+        <div class="too-small-layout">
+            <img src="../images/G.jpg">
+        </div>
+    </div>
+</body>
+</html>
